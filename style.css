@@ -31,7 +31,7 @@ header {
   align-items: center;
   justify-content: space-between;
   text-align: center;
-  flex-direction: row;;
+  flex-direction: row;
 }
 
 header h2 {
@@ -138,4 +138,4 @@ ul li:nth-child(5) {
   margin: 0 10px;
   list-style: none;
   background-repeat: no-repeat;
-}  
+}
