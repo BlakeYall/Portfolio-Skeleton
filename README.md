@@ -11,10 +11,6 @@ Project contains Portfolio Skeleton in HTML and CSS ETC.
 - HTML
 - CSS
 
-## Live Demo
-
-[Live Demo Link](http://127.0.0.1:5500/Portfolio-Skeleton/index.html)
-
 ## Authors
 
 👤 **Inyambo Situmbeko**

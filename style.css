@@ -96,40 +96,10 @@ ul {
   position: relative;
   left: -3rem;
   top: -1.5rem;
-}
-
-ul li:nth-child(1) {
-  background: url(Socials/GitHub.png);
-  height: 19.96px;
-  width: 19.99px;
-}
-
-ul li:nth-child(2) {
-  background: url(Socials/Linkedin.png);
-  height: 20px;
-  width: 20px;
-}
-
-ul li:nth-child(3) {
-  background: url(Socials/M.png);
-  height: 16px;
-  width: 20px;
-}
-
-ul li:nth-child(4) {
-  background: url(Socials/peacesign.png);
-  height: 20px;
-  width: 13.99px;
-}
-
-ul li:nth-child(5) {
-  background: url(Socials/Twitter.png);
-  width: 19.47px;
-  height: 20px;
+  list-style: none;
 }
 
 .icon-image {
   margin: 0 10px;
-  list-style: none;
   background-repeat: no-repeat;
 }
