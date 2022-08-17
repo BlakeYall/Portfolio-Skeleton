@@ -28,7 +28,7 @@ header {
   flex-direction: row;
 }
 
-header h2 {
+header h1 {
   height: 20px;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
@@ -58,7 +58,7 @@ header #Menu-bar {
   position: relative;
 }
 
-h1 {
+h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 47px;
