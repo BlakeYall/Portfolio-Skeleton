@@ -20,6 +20,8 @@ Project contains Portfolio Skeleton in HTML and CSS ETC.
 - Twitter: [@Thee_indigo1](https://twitter.com/Thee_indigo1)
 - LinkedIn: [Inyambo Situmbeko](https://www.linkedin.com/in/inyambo-situmbeko-524bb7229/)
 
+## Contributors
+- GitHub: [abe1able](https://github.com/abe1able)
 
 ## 🤝 Contributing
 
