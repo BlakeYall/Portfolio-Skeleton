@@ -18,6 +18,11 @@ body {
   border-radius: 0 0 0 70px;
 }
 
+.animation:hover {
+  transform: rotate(10deg);
+  transition: 0.5s all;
+}
+
 header {
   height: 48px;
   width: 100%;
