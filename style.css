@@ -39,7 +39,7 @@ a {
 hr {
   margin-top: -10px;
   margin-left: -50px;
-  width: 320px;
+  width: 375px;
   box-shadow: #dfe1e6;
 }
 
@@ -155,14 +155,13 @@ header {
   border-radius: 20px;
   border: 0.2rem solid #e5e5e5;
   background-color: #fff;
-  margin-left: 14.5px;
   margin-top: 80px;
-  width: 327px;
+  width: 295px;
 }
 
 .portfolio-image {
   margin-top: 16px;
-  width: 295px;
+  width: 259px;
   height: 220px;
   margin-left: 13.5px;
 }
@@ -623,7 +622,7 @@ header {
 }
 
 .btn.btn-width {
-  margin-left: 40px;
+  margin-right: 153px;
 }
 
 .rotate-icons:hover {
@@ -726,6 +725,7 @@ header {
     width: 80%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-left: 45px;
   }
 
   .portfolio-image {
@@ -766,7 +766,7 @@ header {
   }
 
   .btn.btn-width {
-    margin-right: 40px;
+    margin-left: 145px;
   }
 
   .project-name-one {
@@ -835,6 +835,20 @@ header {
 
   #mobile-buttons {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .btn.btn-width {
+    margin-left: -2px;
+  }
+  
+  .about-me {
+    width: 100%;
+  }
+
+  .portfolio-border {
+    margin-left: 40px;
   }
 }
 
