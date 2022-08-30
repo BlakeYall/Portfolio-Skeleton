@@ -43,6 +43,11 @@ hr {
   box-shadow: #dfe1e6;
 }
 
+.animation:hover {
+  transform: rotate(10deg);
+  transition: 0.5s all;
+}
+
 header {
   background-color: #fff;
   position: fixed;
