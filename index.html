@@ -1,42 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name=" viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio Skeleton</title>
-</head>
-<body>
-  <div id="mobile-background">
-    
-    
-    <header>
-      <h1>Inyambo</h1>  
-    
-      
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Portfolio Skeleton</title>
+  </head>
+  <body>
+    <header class="header-section">
+      <div class="mobile-menu">
+        <img
+          src="ClosingIcon.png"
+          class="closing-icon"
+          alt="closed icon"
+        />
+        <ul class="right-sidebar">
+          <li class="menu-li">
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li class="menu-li"><a href="#about" class="nav-link">About</a></li>
+          <li class="menu-li">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <a class="header-logo" href="#">
+        <div>
+          <h2 class="my-logo">Inyambo</h2>
+        </div>
+      </a>
       <nav>
-        <div id="Menu-bar"></div>
+        <div class="nav-right">
+          <img src="Union.png" alt="normal button" />
+        </div>
+        <nav class="navigation-links">
+          <ul class="nav-links">
+            <li><a href="#portfolio" class="hover-menu">Portfolio</a></li>
+            <li><a href="#about" class="hover-menu">About</a></li>
+            <li><a href="#contact" class="hover-menu">Contact</a></li>
+          </ul>
+        </nav>
       </nav>
     </header>
+
     
-    <section id="content">
-      <h2>I’m Inyambo <br> Glad to see <br> you!</h2>
-      <p>
-        I am a software developer! I can help you build a product , 
-        feature or website. You can Look through some of my work and experience! 
-        If you like what you see and have a project you need coded, please
-         don't hesitate to contact me.
+    <section class="main-part">
+      <h1 class="welcome-message">
+        I'm Inyambo <br />
+        Glad to see you!
+      </h1>
+      <p class="about-me-main">
+        I’m a software developer! I can help you build a product , features or
+        website. Look through some of my work and projects! If you like what you
+        see and have a project you need to be coded, don’t hestiate to contact
+        me.
       </p>
-      <h3>LET'S CONNECT</h3>
-       <ul id="Social">
+      <a href="#" class="connect">LET'S CONNECT</a>
+      <ul class="social-media-icons">
         <li>
           <a href="#" class="icons">
             <img
               src="Socials/Twitter.png"
               alt="Twitter logo"
-              class="icon-image"
+              class="rotate-icons"
             />
           </a>
         </li>
@@ -45,7 +86,7 @@
             <img
               src="Socials/Linkedin.png"
               alt="Linkedin logo"
-              class="icon-image"
+              class="rotate-icons"
             />
           </a>
         </li>
@@ -54,16 +95,16 @@
             <img
               src="Socials/M.png"
               alt="Microsoft logo"
-              class="icon-image"
+              class="rotate-icons"
             />
           </a>
         </li>
         <li>
           <a href="#" class="icons">
             <img
-              src="Socials/Github.png"
+              src="Socials/GitHub.png"
               alt="Github logo"
-              class="icon-image"
+              class="rotate-icons"
             />
           </a>
         </li>
@@ -72,12 +113,15 @@
             <img
               src="Socials/peacesign.png"
               alt="Angelist logo"
-              class="icon-image"
+              class="rotate-icons"
             />
           </a>
-        </li>      
-       </ul>
+        </li>
+      </ul>
     </section>
+
+  
+
     <section class="portfolio" id="portfolio">
       <div class="portfolio-border">
         <img
@@ -87,80 +131,24 @@
         />
         <div class="project-section">
           <h3 class="project-name">Tonic</h3>
-          <div class="project-info">
+          <nav class="project-info">
             <h4 class="project-client">CANOPY</h4>
             <img src="Counter.png" class="counter" alt="counter" />
             <span class="programming-language">Back End Dev</span>
             <img src="Counter.png" class="counter" alt="counter" />
             <span class="year">2015</span>
-          </div>
+          </nav>
 
           <p class="project-details">
-            A daily selection of privately personalized reads; no accounts or <br />
-            sign-ups required. 
-          </p>  
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
           <ul class="languages">
             <li class="dev-tool">html</li>
             <li class="dev-tool">css</li>
             <li class="dev-tool">javascript</li>
           </ul>
-          <button class="btn" type="button">See Project</button>
-        </div>
-      </div>
-
-      <div class="portfolio-border">
-        <img
-          class="portfolio-image"
-          alt="portfolio project"
-          src="Portfolio4.png"
-        />
-        <div class="project-section">
-          <h2 class="project-name-one">Multi-Post <br />Stories </h2>
-          <div class="project-info-one">
-            <h4 class="project-client">CANOPY</h4>
-            <img src="Counter.png" class="counter" alt="counter" />
-            <span class="programming-language">Back End Dev</span>
-            <img src="Counter.png" class="counter" alt="counter" />
-            <span class="year">2015</span>
-          </div>
-          <p class="project-details-one">
-            A daily selection of privately personalized reads; no accounts or<br />
-            sign-ups required.
-          </p>
-          <ul class="languages-one">
-            <li class="dev-tool">html</li>
-            <li class="dev-tool">css</li>
-            <li class="dev-tool">javascript</li>
-          </ul>
-          <button class="btn-one" type="button">See Project</button>
-        </div>
-      </div>
-
-      <div class="portfolio-border">
-        <img
-          class="portfolio-image"
-          alt="portfolio project"
-          src="Portfolio5.png"
-        />
-        <div class="project-section">
-          <h2 class="project-name-two">Tonic</h2>
-          <div class="project-info-two">
-            <h4 class="project-client">CANOPY</h4>
-            <img src="Counter.png" class="counter" alt="counter" />
-            <span class="programming-language">Back End Dev</span>
-            <img src="Counter.png" class="counter" alt="counter" />
-            <span class="year">2015</span>
-          </div>
-          <p class="project-details-two">
-            A daily selection of privately personalized reads; no accounts or<br />
-            sign-ups required.
-          </p>
-          <ul class="languages-two">
-            <li class="dev-tool">html</li>
-            <li class="dev-tool">css</li>
-            <li class="dev-tool">javascript</li>
-          </ul>
-          <button class="btn" type="button">See Project</button>
+          <button type="button" class="btn">See Project</button>
         </div>
       </div>
 
@@ -170,29 +158,87 @@
           alt="portfolio project"
           src="Portfolio2.png"
         />
+        <div class="project-section project-section-reverse">
+          <h2 class="project-name-one">Multi-Post Stories</h2>
+          <nav class="project-info-one">
+            <h4 class="project-client-one">CANOPY</h4>
+            <img src="Counter.png" class="counter" alt="counter" />
+            <span class="programming-language">Back End Dev</span>
+            <img src="Counter.png" class="counter" alt="counter" />
+            <span class="year">2015</span>
+          </nav>
+          <p class="project-details-one">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <ul class="languages-one">
+            <li class="dev-tool">html</li>
+            <li class="dev-tool">css</li>
+            <li class="dev-tool">javascript</li>
+          </ul>
+          <button type="button" class="btn-one">See Project</button>
+        </div>
+      </div>
+
+      <div class="portfolio-border">
+        <img
+          class="portfolio-image"
+          alt="portfolio project"
+          src="Snapshoot_Portfolio.png"
+       />
         <div class="project-section">
-          <h2 class="project-name-three">Multi-Post <br /> Stories </h2>
-          <div class="project-info-three">
+          <h2 class="project-name">Tonic</h2>
+          <nav class="project-info">
             <h4 class="project-client">CANOPY</h4>
             <img src="Counter.png" class="counter" alt="counter" />
             <span class="programming-language">Back End Dev</span>
             <img src="Counter.png" class="counter" alt="counter" />
             <span class="year">2015</span>
-          </div>
-          <p class="project-details-three">
-            A daily selection of privately personalized reads; no accounts or<br />
+          </nav>
+          <p class="project-details">
+            A daily selection of privately personalized reads; no accounts or
             sign-ups required.
           </p>
-          <ul class="languages-zero">
+          <ul class="languages">
             <li class="dev-tool">html</li>
             <li class="dev-tool">css</li>
             <li class="dev-tool">javascript</li>
           </ul>
-          <button class="btn" type="button">See Project</button>
+          <button type="button" class="btn">See Project</button>
         </div>
       </div>
-    </section>    
-    <section class="about-me-section" id="about">
+
+      <div class="portfolio-border">
+        <img
+          class="portfolio-image"
+          alt="portfolio project"
+          src="Portfolio4.png"
+        />
+        <div class="project-section project-section-reverse">
+          <h2 class="project-name-two">Multi-Post Stories</h2>
+          <nav class="project-info-two">
+            <h4 class="project-client-two">CANOPY</h4>
+            <img src="Counter.png" class="counter" alt="counter" />
+            <span class="programming-language">Back End Dev</span>
+            <img src="Counter.png" class="counter" alt="counter" />
+            <span class="year">2015</span>
+          </nav>
+          <p class="project-details-two">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <ul class="languages-two">
+            <li class="dev-tool">html</li>
+            <li class="dev-tool">css</li>
+            <li class="dev-tool">javascript</li>
+          </ul>
+          <button type="button" class="btn-two">See Project</button>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="about-me" id="about">
       <div class="about-section">
         <h2 class="about-text">
           About <br />
@@ -204,48 +250,48 @@
           like what you see and have a project you need to be coded, don’t
           hestiate to contact me.
         </p>
-        <a href="#" class="connect-bottom">LET'S CONNECT</a>
-        <ul class="social-media-button">
+        <a href="#" class="connect connect-bottom">LET'S CONNECT</a>
+        <ul class="social-media-icons social-media-button">
           <li>
             <a href="#" class="icons">
-              <img src="Socials/GitHub.png" alt="Github" />
+              <img src="Socials/Twitter.png" alt="Twitter logo" />
             </a>
           </li>
           <li>
             <a href="#" class="icons">
-              <img src="Socials/Linkedin.png" alt="Linkedin" />
+              <img src="Socials/Linkedin.png" alt="Linkedin logo" />
             </a>
           </li>
           <li>
             <a href="#" class="icons">
-              <img src="Socials/M.png" alt="Medium" />
+              <img src="Socials/M.png" alt="Medium logo" />
             </a>
           </li>
           <li>
             <a href="#" class="icons">
-              <img src="Socials/peacesign.png" alt="Angelist" />
+              <img src="Socials/GitHub.png" alt="Github logo" />
             </a>
           </li>
           <li>
             <a href="#" class="icons">
-              <img src="Socials/Twitter.png" alt="Twitter" />
+              <img src="Socials/peacesign.png" alt="Angelist logo" />
             </a>
           </li>
         </ul>
-        <button class="btn btn--resume" type="button">Get my Resume</button>
+        <button type="submit" class="btn btn--resume">Get my Resume</button>
       </div>
 
       <div class="skills-section">
         <ul class="tools">
           <li class="tabs">
             <h4 class="caption">Languages</h4>
-              <a href="#">
-                <img
-                  class="left-sidebar"
-                  alt="open-tab"
-                  src="arrow1.png"
-                />
-            </a>  
+            <a href="#">
+              <img
+                class="left-sidebar-one"
+                alt="open-tab"
+                src="arrow1.png"
+              />
+            </a>
           </li>
         </ul>
         <ul class="side-language">
@@ -275,12 +321,12 @@
           </li>
         </ul>
 
-        <ul class="tabs-bottom-line">
-          <li class="tabs-one">
+        <ul class="tools tabs-bottom-line">
+          <li class="tabs">
             <h4 class="caption">Frameworks</h4>
-            <a href="#" class="tag">
+            <a href="#">
               <img
-                class="left-sidebar-two"
+                class="left-sidebar"
                 alt="open-tab"
                 src="arrow2.png"
               />
@@ -288,21 +334,24 @@
           </li>
         </ul>
 
-        <ul class="tabs-bottom-line">
-          <li class="tabs-two">
+        <ul class="tools tabs-bottom-line">
+          <li class="tabs">
             <h4 class="caption">Skills</h4>
-            <a href="#" class="tag">
+            <a href="#">
               <img
-                class="left-sidebar-three"
+                class="left-sidebar"
                 alt="open-tab"
                 src="arrow2.png"
               />
             </a>
+
+            
           </li>
         </ul>
       </div>
     </section>
-    <section class="contact-form1" id="contact">    
+
+    <section class="contact-form1" id="contact">     
       <div class="contact-me">
         <h2 class="contact">Contact me</h2>
         <p class="contact-paragraph">
@@ -313,7 +362,7 @@
       </div>
       <form
         class="contact-box"
-        action="https://formspree.io/f/mqknveyk"
+        action="https://formspree.io/f/xqkjaljd"
         method="POST"
       >
         <input
@@ -343,6 +392,5 @@
         <button type="submit" class="btn btn-width">Get In Touch</button>
       </form>
     </section>
-  </div>  
-</body>
+  </body>
 </html>
