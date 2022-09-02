@@ -656,7 +656,10 @@ header {
 
   .my-logo {
     margin-left: 80px;
-    transform: rotate (360deg);
+  }
+
+  .my-logo:hover {
+    transform: rotate(360deg);
     transition: 0.5s all;
   }
 
