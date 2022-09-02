@@ -18,9 +18,10 @@ body {
   border-radius: 0 0 0 70px;
 }
 
-.animation:hover {
-  transform: rotate(10deg);
-  transition: 0.5s all;
+.my-logo:hover {
+  transform: rotate(360deg);
+  transition: 1s all;
+  cursor: pointer;
 }
 
 header {
