@@ -635,6 +635,11 @@ header {
   transform: rotate(100deg);
 }
 
+.my-logo:hover {
+  transform: rotate(360deg);
+  transition: 0.5s all;
+}
+
 @media (min-width: 748px) {
   section {
     background-position: 20px 0;
