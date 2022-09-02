@@ -656,6 +656,8 @@ header {
 
   .my-logo {
     margin-left: 80px;
+    transform: rotate (360deg);
+    transition: 0.5s all;
   }
 
   .navigation-links {
@@ -764,7 +766,7 @@ header {
   .elements:hover {
     transform: translateY(-1.2rem);
     transition: all 0.4s;
-  }
+  }       
 
   .contact-form {
     background-image: url(contact\ form\ background\ shapes.png);
