@@ -43,9 +43,10 @@ hr {
   box-shadow: #dfe1e6;
 }
 
-.animation:hover {
-  transform: rotate(10deg);
-  transition: 0.5s all;
+.my-logo:hover {
+  transform: rotate(360deg);
+  transition: 1s all;
+  cursor: pointer;
 }
 
 header {
@@ -769,7 +770,7 @@ header {
   .elements:hover {
     transform: translateY(-1.2rem);
     transition: all 0.4s;
-  }       
+  }
 
   .contact-form {
     background-image: url(contact\ form\ background\ shapes.png);
