@@ -19,25 +19,12 @@
     />
     <link rel="stylesheet" href="style.css" />
 
-    <title>Portfolio Skeleton</title>
+    <title>My Portfolio</title>
   </head>
   <body>
     <header class="header-section">
-      <div class="mobile-menu">
-        <img
-          src="ClosingIcon.png"
-          class="closing-icon"
-          alt="closed icon"
-        />
-        <ul class="right-sidebar">
-          <li class="menu-li">
-            <a href="#portfolio" class="nav-link">Portfolio</a>
-          </li>
-          <li class="menu-li"><a href="#about" class="nav-link">About</a></li>
-          <li class="menu-li">
-            <a href="#contact" class="nav-link">Contact</a>
-          </li>
-        </ul>
+      <div class="mobile-menu-" id="id-for-js">
+
       </div>
       <a class="header-logo" href="#">
         <div>
@@ -46,7 +33,7 @@
       </a>
       <nav>
         <div class="nav-right">
-          <img src="Union.png" alt="normal button" />
+          <img onclick="mobileMenu()" src="Union.png" alt="normal button" />
         </div>
         <nav class="navigation-links">
           <ul class="nav-links">
@@ -391,6 +378,7 @@
         ></textarea>
         <button type="submit" class="btn btn-width">Get In Touch</button>
       </form>
+      <script src="index.js"></script>
     </section>
   </body>
 </html>

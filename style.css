@@ -13,6 +13,45 @@ body {
   padding: 0;
 }
 
+#id-for-js {
+  display: none;
+}
+
+.mobile-menu-div {
+  backdrop-filter: blur(6px);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  top: 0;
+  background-color: rgb(31 57 255 / 65%);
+  position: fixed;
+  width: 100%;
+  padding: 15% 0;
+}
+
+.mobile-menu-div a {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 44px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  padding: 0 0 18px 25px;
+}
+
+.mobile-menu-close {
+  height: 17px;
+  width: 17px;
+  padding: 0 0 56px 85%;
+}
+
+.mobile-menu-close-icon {
+  width: 17px;
+}
+
 li {
   list-style: none;
 }
